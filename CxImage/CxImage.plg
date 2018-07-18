@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CxImage - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\JUAN\AppData\Local\Temp\RSPF2FC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\jpeg" /I "..\png" /I "..\zlib" /I "..\mng" /I "..\tiff" /I "..\j2k" /I "..\jasper\include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /D "JAS_WIN_MSVC_BUILD" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Helbreath\Client\CxImage\tif_xfile.cpp"
+"D:\Helbreath\Client\CxImage\ximabmp.cpp"
+"D:\Helbreath\Client\CxImage\ximadsp.cpp"
+"D:\Helbreath\Client\CxImage\ximaenc.cpp"
+"D:\Helbreath\Client\CxImage\ximaexif.cpp"
+"D:\Helbreath\Client\CxImage\xImage.cpp"
+"D:\Helbreath\Client\CxImage\ximagif.cpp"
+"D:\Helbreath\Client\CxImage\ximahist.cpp"
+"D:\Helbreath\Client\CxImage\ximaico.cpp"
+"D:\Helbreath\Client\CxImage\ximainfo.cpp"
+"D:\Helbreath\Client\CxImage\ximaint.cpp"
+"D:\Helbreath\Client\CxImage\ximaj2k.cpp"
+"D:\Helbreath\Client\CxImage\ximajas.cpp"
+"D:\Helbreath\Client\CxImage\ximajbg.cpp"
+"D:\Helbreath\Client\CxImage\ximajpg.cpp"
+"D:\Helbreath\Client\CxImage\ximalpha.cpp"
+"D:\Helbreath\Client\CxImage\ximalyr.cpp"
+"D:\Helbreath\Client\CxImage\ximamng.cpp"
+"D:\Helbreath\Client\CxImage\ximapal.cpp"
+"D:\Helbreath\Client\CxImage\ximapcx.cpp"
+"D:\Helbreath\Client\CxImage\ximapng.cpp"
+"D:\Helbreath\Client\CxImage\ximasel.cpp"
+"D:\Helbreath\Client\CxImage\ximatga.cpp"
+"D:\Helbreath\Client\CxImage\ximath.cpp"
+"D:\Helbreath\Client\CxImage\ximatif.cpp"
+"D:\Helbreath\Client\CxImage\ximatran.cpp"
+"D:\Helbreath\Client\CxImage\ximawbmp.cpp"
+"D:\Helbreath\Client\CxImage\ximawmf.cpp"
+"D:\Helbreath\Client\CxImage\ximawnd.cpp"
+"D:\Helbreath\Client\CxImage\xmemfile.cpp"
+]
+Creating command line "cl.exe @C:\Users\JUAN\AppData\Local\Temp\RSPF2FC.tmp" 
+Creating temporary file "C:\Users\JUAN\AppData\Local\Temp\RSPF30D.tmp" with contents
+[
+/nologo /out:"Release\CxImage.lib" 
+.\Release\tif_xfile.obj
+.\Release\ximabmp.obj
+.\Release\ximadsp.obj
+.\Release\ximaenc.obj
+.\Release\ximaexif.obj
+.\Release\xImage.obj
+.\Release\ximagif.obj
+.\Release\ximahist.obj
+.\Release\ximaico.obj
+.\Release\ximainfo.obj
+.\Release\ximaint.obj
+.\Release\ximaj2k.obj
+.\Release\ximajas.obj
+.\Release\ximajbg.obj
+.\Release\ximajpg.obj
+.\Release\ximalpha.obj
+.\Release\ximalyr.obj
+.\Release\ximamng.obj
+.\Release\ximapal.obj
+.\Release\ximapcx.obj
+.\Release\ximapng.obj
+.\Release\ximasel.obj
+.\Release\ximatga.obj
+.\Release\ximath.obj
+.\Release\ximatif.obj
+.\Release\ximatran.obj
+.\Release\ximawbmp.obj
+.\Release\ximawmf.obj
+.\Release\ximawnd.obj
+.\Release\xmemfile.obj
+]
+Creating command line "link.exe -lib @C:\Users\JUAN\AppData\Local\Temp\RSPF30D.tmp"
+<h3>Output Window</h3>
+Compiling...
+tif_xfile.cpp
+ximabmp.cpp
+ximadsp.cpp
+ximaenc.cpp
+ximaexif.cpp
+xImage.cpp
+ximagif.cpp
+ximahist.cpp
+ximaico.cpp
+ximainfo.cpp
+ximaint.cpp
+ximaj2k.cpp
+ximajas.cpp
+ximajbg.cpp
+ximajpg.cpp
+ximalpha.cpp
+ximalyr.cpp
+ximamng.cpp
+ximapal.cpp
+ximapcx.cpp
+Generating Code...
+Compiling...
+ximapng.cpp
+ximasel.cpp
+ximatga.cpp
+ximath.cpp
+ximatif.cpp
+ximatran.cpp
+ximawbmp.cpp
+ximawmf.cpp
+ximawnd.cpp
+xmemfile.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+CxImage.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

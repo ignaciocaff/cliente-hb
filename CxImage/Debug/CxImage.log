@@ -1,0 +1,24 @@
+﻿Build started 07/03/2016 23:29:27.
+     1>Project "D:\Helbreath\Client\CxImage\CxImage.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\CxImage.unsuccessfulbuild".
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\jpeg /I..\png /I..\zlib /I..\mng /I..\tiff /I..\j2k /I..\jasper\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D JAS_WIN_MSVC_BUILD /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ximatran.cpp
+         ximatran.cpp
+     1>d:\helbreath\client\cximage\xiofile.h(24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\helbreath\client\cximage\ximatran.cpp(183): error C2666: 'div' : 3 overloads have similar conversions
+                 d:\microsoft visual studio 10.0\vc\include\stdlib.h(479): could be 'lldiv_t div(__int64,__int64)'
+                 d:\microsoft visual studio 10.0\vc\include\stdlib.h(475): or       'ldiv_t div(long,long)'
+                 d:\microsoft visual studio 10.0\vc\include\stdlib.h(432): or       'div_t div(int,int)'
+                 while trying to match the argument list '(long, int)'
+     1>d:\helbreath\client\cximage\ximatran.cpp(301): error C2666: 'div' : 3 overloads have similar conversions
+                 d:\microsoft visual studio 10.0\vc\include\stdlib.h(479): could be 'lldiv_t div(__int64,__int64)'
+                 d:\microsoft visual studio 10.0\vc\include\stdlib.h(475): or       'ldiv_t div(long,long)'
+                 d:\microsoft visual studio 10.0\vc\include\stdlib.h(432): or       'div_t div(int,int)'
+                 while trying to match the argument list '(long, int)'
+     1>Done Building Project "D:\Helbreath\Client\CxImage\CxImage.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.93
